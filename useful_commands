@@ -1,2 +1,6 @@
 # strip the characters '0-' from filenames (-n: no action, simulate action only, -v: verbose output):
 rename -n -v 's/0-//' 0-*
+
+# display a text file while it is being updated in real time (eg a log file)
+tail -f filename
+
